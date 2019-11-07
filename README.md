@@ -1,2 +1,2 @@
 # CustomWebItems
-Webアプリで使用するアイテムです。
+Webアプリで使用するアイテム群
