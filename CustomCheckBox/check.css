@@ -1,0 +1,21 @@
+.btn-circle {
+    background-color: #fff;
+    color: lightgray;
+    border-color: #ccc;
+    width: 100%;
+}
+
+    .btn-circle:hover {
+        background-color: #fff;
+        color: lightgray;
+        border-color: #ccc;
+    }
+
+input[type=checkbox] {
+    display: none;
+}
+
+    input[type=checkbox]:checked + label {
+        background: #469408;
+        color: white;
+    }
