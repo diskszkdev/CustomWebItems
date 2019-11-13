@@ -1,11 +1,11 @@
-.btn-circle {
+.custom-check {
     background-color: #fff;
     color: lightgray;
     border-color: #ccc;
     width: 100%;
 }
 
-    .btn-circle:hover {
+    .custom-check:hover {
         background-color: #fff;
         color: lightgray;
         border-color: #ccc;
@@ -15,7 +15,12 @@ input[type=checkbox] {
     display: none;
 }
 
-    input[type=checkbox]:checked + label {
+    input[type=checkbox]:checked + label.check-circle {
         background: #469408;
+        color: white;
+    }
+
+    input[type=checkbox]:checked + label.check-cross {
+        background: #FF4500;
         color: white;
     }
