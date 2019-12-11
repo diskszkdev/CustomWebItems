@@ -38,7 +38,6 @@ $(function () {
             let newRow = row.clone(true);
             newRow.removeClass('table-primary');
             newRow.insertAfter($('table tbody tr').last());
-
         }
 
     });
@@ -47,6 +46,7 @@ $(function () {
     $('#btn-delete').on('click', function () {
         if ($('table tbody tr').hasClass('table-primary')) {
             let row = $('table > tbody > .table-primary');
+            row.next().addClass('table-primary')
             row.remove();
         }
     });
