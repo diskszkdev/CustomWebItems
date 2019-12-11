@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomTable</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="table.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row m-5">
+            <div class="offset-2 col-6">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">名前</th>
+                            <th scope="col">趣味</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>本田圭佑</td>
+                            <td>サッカー</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>鈴木一郎</td>
+                            <td>野球</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>八村塁</td>
+                            <td>バスケット</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>福原愛</td>
+                            <td>卓球</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>香川真司</td>
+                            <td>サッカー</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-2">
+                <button id="btn-up" type="button" class="btn btn-block btn-primary">上へ</button>
+                <button id="btn-down" type="button" class="btn btn-block btn-secondary">下へ</button>
+                <button id="btn-add" type="button" class="btn btn-block btn-danger">追加</button>
+                <button id="btn-delete" type="button" class="btn btn-block btn-success">削除</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
