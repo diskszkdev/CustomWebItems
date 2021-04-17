@@ -1,0 +1,56 @@
+.switch_input {
+  display: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background: #666;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* .switch::after {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  transition: 0.2s;
+} */
+
+
+.s5 {
+  background: none;
+  border: #f0d118 solid 1px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.s5::before,
+.s5::after {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  width: 75px;
+  height: 50px;
+}
+.s5::before {
+  content: "ON";
+  color: #aaa;
+  border-radius: 5px;
+  background: #fff;
+}
+.s5::after {
+  content: "OFF";
+  border-radius: 5px;
+  color: #000;
+  background: #f0d118;
+}
+.switch_input:checked + .s5::before {
+  background: #f0d118;
+  color: #000;
+}
+.switch_input:checked + .s5::after {
+  background: #fff;
+  color: #aaa;
+}
