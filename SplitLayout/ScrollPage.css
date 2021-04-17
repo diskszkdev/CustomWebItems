@@ -1,0 +1,25 @@
+.split{
+    display: table;
+    width: 100%;
+}
+.split-item{
+    display: table-cell;
+    padding: 80px;
+    width: 50%;
+}
+.split-left{
+    background: #000;
+    color: #fff;
+    position: relative;
+}
+.split-left__inner{
+    height: 100%;
+    position: fixed;
+    width: 50%;
+}
+.split-right__inner{
+    height: 8000px;
+}
+body{
+    margin:0px;
+}
